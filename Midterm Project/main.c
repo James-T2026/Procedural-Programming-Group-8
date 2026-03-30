@@ -366,6 +366,6 @@ void startright()
 
 int main()
 {
-    //intro();
+    intro();
     start();
 }
