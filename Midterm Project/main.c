@@ -162,6 +162,7 @@ void drown() //Done
     printf("You swallow some water and contract dysentery\n");
     printf("You have died of dysentery\n\n\n");
     printf("GAME OVER!");
+    sleep(2);
     exit(0);
 }
 
@@ -242,6 +243,7 @@ void wait4()
     printf("We hope you had a fun time!\n\n");
     sleep(2);
     printf("Game Over");
+    sleep(2);
     exit(0);
 }
 
@@ -260,6 +262,7 @@ void startmid()
     if(choice == 3){
         printf("If you chose to calm down you were never heard from again\n");
         printf("GAME OVER");
+        sleep(2);
         exit(0);
     }
     if(choice == 4){
@@ -270,11 +273,13 @@ void startmid()
     if(choice == 5){
         printf("Waiting has paid off they passed out giving you time to sneak out\n");
         printf("You have made it out good job. GAME OVER");
+        sleep(2);
         exit(0);
     }
     if(choice == 6){
         printf("Being brash has led to your end\n");
         printf("You have lost good try. GAME OVER");
+        sleep(2);
         exit(0);
     }
     }
@@ -291,11 +296,13 @@ void startmid()
     if(choice == 9){
             printf("He gives you a pot of gold making you the richest person on the planet\n");
             printf("GAME OVER");
+            sleep(2);
             exit(0);
 }
     if (choice == 10){
             printf("You are not the brightest who does not want free money");
             printf("GAME OVER");
+            sleep(2);
             exit(0);
     }
     if (choice == 8){
@@ -306,11 +313,13 @@ void startmid()
     if(choice == 11){
             printf("You die\n");
             printf("GAME OVER\n");
+            sleep(2);
             exit(0);
         }
     if (choice == 12){
         printf("You die\n");
         printf("GAME OVER\n");
+        sleep(2);
         exit(0);
 }
 }
@@ -337,6 +346,7 @@ void startright()
         printf("The creature chases you, tailing close behind. \n");
         printf("Unfortunately, the creature is much larger than you are, and it does not take long for it to catch up to you. You have lost the race. \n");
         printf("GAME OVER \n");
+        sleep(2);
         exit(0);
     }
 
@@ -346,6 +356,7 @@ void startright()
         printf("The creature growls in return and charges back, knocking you off your feet. \n");
         printf("It is much stronger than you, and you lose the fight. \n");
         printf("GAME OVER \n");
+        sleep(2);
         exit(0);
     }
 
