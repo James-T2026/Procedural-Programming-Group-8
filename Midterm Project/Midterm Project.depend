@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1774398502 source:t:\procedural programming midterm\midterm project\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
